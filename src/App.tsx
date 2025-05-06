@@ -5,9 +5,11 @@ function App() {
 
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-      </Routes>
+      <div className="max-w-screen-2xl mx-auto p-4">
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+        </Routes>
+      </div>
     </Router>
   )
 }
